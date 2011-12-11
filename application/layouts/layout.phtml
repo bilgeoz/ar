@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Todo</title>
+    <style type="text/css">
+        <!--
+        body {
+
+        }
+        -->
+    </style>
+    <link rel="stylesheet" href="<?= $this->baseUrl(); ?>/css/menu.css" type="text/css" media="screen" />
+    <link href="<?= $this->baseUrl(); ?>/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="<?= $this->baseUrl(); ?>/css/style9.css" />
+    <link rel="stylesheet" type="text/css" href="<?= $this->baseUrl(); ?>/css/demo.css" />    
+    <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
+    <style type="text/css">
+        <!--
+        .Stile1 {color: #333333}
+        -->
+    </style>
+</head>
+<body>
+    <!--start container -->
+    <div id="container">
+        <header>
+            <nav>  
+                <div id="headerbg">
+                    <div id="top">
+                        <div id="search-top">
+                            <form method="post" action="#">
+                                <input type="text" onFocus="if(this.value=='Search')this.value='';" onBlur="if(this.value=='')this.value='Search';" value="Search"  id="search-field"/>
+                                <input type="submit" value="" id="search-btn"/>
+                            </form> 
+                        </div>  
+                        <div id="nav_social">
+                            <a href="#"><img src="<?= $this->baseUrl(); ?>/images/facebook_32.png" alt="Become a fan" width="32" height="32" /></a>
+                            <a href="#"><img src="<?= $this->baseUrl(); ?>/images/twitter_32.png" alt="Follows on Twitter" /></a>
+                        </div>
+                    </div>
+                    <div id="logo"><a href="#"></a></div>
+                    <ul id="menu">
+
+                        <li><a href="#" class="drop">Kampanyalar</a><!-- Begin Home Item -->
+
+                            <div class="dropdown_2columns"><!-- Begin 2 columns container -->
+
+                                <div class="col_2">
+                                    <h2>Welcome !</h2>
+                                </div>
+
+                                <div class="col_2">
+                                    <p>Hi and welcome here ! This is a showcase of the possibilities of this awesome Mega Drop Down Menu.</p>             
+                                    <p>This item comes with a large range of prepared typographic stylings such as headings, lists, etc.</p>             
+                                </div>
+
+                                <div class="col_2">
+                                    <h2>Cross Browser Support</h2>
+                                </div>
+
+                                <div class="col_1">
+                                    <img src="img/browsers.png" width="125" height="48" alt="" />
+                                </div>
+
+                                <div class="col_1">
+                                    <p>This mega menu has been tested in all major browsers.</p>
+                                </div>
+
+                            </div><!-- End 2 columns container -->
+
+                        </li><!-- End Home Item -->
+
+                        <li><a href="#" class="drop">Kadın</a><!-- Begin 5 columns Item -->
+
+                            <div class="dropdown_5columns"><!-- Begin 5 columns container -->
+
+                                <div class="col_5">
+                                    <h2>This is an example of a large container with 5 columns</h2>
+                                </div>
+
+                                <div class="col_1">
+                                    <p class="black_box">This is a dark grey box text. Fusce in metus at enim porta lacinia vitae a arcu. Sed sed lacus nulla mollis porta quis.</p>
+                                </div>
+
+                                <div class="col_1">
+                                    <p>Phasellus vitae sapien ac leo mollis porta quis sit amet nisi. Mauris hendrerit, metus cursus accumsan tincidunt.</p>
+                                </div>
+
+                                <div class="col_1">
+                                    <p class="italic">This is a sample of an italic text. Consequat scelerisque. Fusce sed lectus at arcu mollis accumsan at nec nisi porta quis sit amet.</p>
+                                </div>
+
+                                <div class="col_1">
+                                    <p>Curabitur euismod gravida ante nec commodo. Nunc dolor nulla, semper in ultricies vitae, vulputate porttitor neque.</p>
+                                </div>
+
+                                <div class="col_1">
+                                    <p class="strong">This is a sample of a bold text. Aliquam sodales nisi nec felis hendrerit ac eleifend lectus feugiat scelerisque.</p>
+                                </div>
+
+                                <div class="col_5">
+                                    <h2>Here is some content with side images</h2>
+                                </div>
+
+                                <div class="col_3">
+
+                                    <img src="img/01.jpg" width="70" height="70" class="img_left imgshadow" alt="" />
+                                    <p>Maecenas eget eros lorem, nec pellentesque lacus. Aenean dui orci, rhoncus sit amet tristique eu, tristique sed odio. Praesent ut interdum elit. Sed in sem mauris. Aenean a commodo mi. Praesent augue lacus.<a href="#">Read more...</a></p>
+
+                                    <img src="img/02.jpg" width="70" height="70" class="img_left imgshadow" alt="" />
+                                    <p>Aliquam elementum felis quis felis consequat scelerisque. Fusce sed lectus at arcu mollis accumsan at nec nisi. Aliquam pretium mollis fringilla. Nunc in leo urna, eget varius metus. Aliquam sodales nisi.<a href="#">Read more...</a></p>
+
+                                </div>
+
+                                <div class="col_2">
+
+                                    <p class="black_box">This is a black box, you can use it to highligh some content. Sed sed lacus nulla, et lacinia risus. Phasellus vitae sapien ac leo mollis porta quis sit amet nisi. Mauris hendrerit, metus cursus accumsan tincidunt.Quisque vestibulum nisi non nunc blandit placerat. Mauris facilisis, risus ut lobortis posuere, diam lacus congue lorem, ut condimentum ligula est vel orci. Donec interdum lacus at velit varius gravida. Nulla ipsum risus.</p>
+
+                                </div>
+
+                            </div><!-- End 5 columns container -->
+
+                        </li><!-- End 5 columns Item -->
+
+                        <li><a href="#" class="drop">4 Columns</a><!-- Begin 4 columns Item -->
+
+                            <div class="dropdown_4columns"><!-- Begin 4 columns container -->
+
+                                <div class="col_4">
+                                    <h2>This is a heading title</h2>
+                                </div>
+
+                                <div class="col_1">
+
+                                    <h3>Some Links</h3>
+                                    <ul>
+                                        <li><a href="#">ThemeForest</a></li>
+                                        <li><a href="#">GraphicRiver</a></li>
+                                        <li><a href="#">ActiveDen</a></li>
+                                        <li><a href="#">VideoHive</a></li>
+                                        <li><a href="#">3DOcean</a></li>
+                                    </ul>   
+
+                                </div>
+
+                                <div class="col_1">
+
+                                    <h3>Useful Links</h3>
+                                    <ul>
+                                        <li><a href="#">NetTuts</a></li>
+                                        <li><a href="#">VectorTuts</a></li>
+                                        <li><a href="#">PsdTuts</a></li>
+                                        <li><a href="#">PhotoTuts</a></li>
+                                        <li><a href="#">ActiveTuts</a></li>
+                                    </ul>   
+
+                                </div>
+
+                                <div class="col_1">
+
+                                    <h3>Other Stuff</h3>
+                                    <ul>
+                                        <li><a href="#">FreelanceSwitch</a></li>
+                                        <li><a href="#">Creattica</a></li>
+                                        <li><a href="#">WorkAwesome</a></li>
+                                        <li><a href="#">Mac Apps</a></li>
+                                        <li><a href="#">Web Apps</a></li>
+                                    </ul>   
+
+                                </div>
+
+                                <div class="col_1">
+
+                                    <h3>Misc</h3>
+                                    <ul>
+                                        <li><a href="#">Design</a></li>
+                                        <li><a href="#">Logo</a></li>
+                                        <li><a href="#">Flash</a></li>
+                                        <li><a href="#">Illustration</a></li>
+                                        <li><a href="#">More...</a></li>
+                                    </ul>   
+
+                                </div>
+
+                            </div><!-- End 4 columns container -->
+
+                        </li><!-- End 4 columns Item -->
+
+                        <li class="menu_right"><a href="#" class="drop">1 Column</a>
+
+                            <div class="dropdown_1column align_right">
+
+                                <div class="col_1">
+
+                                    <ul class="simple">
+                                        <li><a href="#">FreelanceSwitch</a></li>
+                                        <li><a href="#">Creattica</a></li>
+                                        <li><a href="#">WorkAwesome</a></li>
+                                        <li><a href="#">Mac Apps</a></li>
+                                        <li><a href="#">Web Apps</a></li>
+                                        <li><a href="#">NetTuts</a></li>
+                                        <li><a href="#">VectorTuts</a></li>
+                                        <li><a href="#">PsdTuts</a></li>
+                                        <li><a href="#">PhotoTuts</a></li>
+                                        <li><a href="#">ActiveTuts</a></li>
+                                        <li><a href="#">Design</a></li>
+                                        <li><a href="#">Logo</a></li>
+                                        <li><a href="#">Flash</a></li>
+                                        <li><a href="#">Illustration</a></li>
+                                        <li><a href="#">More...</a></li>
+                                    </ul>   
+
+                                </div>
+
+                            </div>
+
+                        </li>
+
+                        <li class="menu_right"><a href="#" class="drop">3 columns</a><!-- Begin 3 columns Item -->
+
+                            <div class="dropdown_3columns align_right"><!-- Begin 3 columns container -->
+
+                                <div class="col_3">
+                                    <h2>Lists in Boxes</h2>
+                                </div>
+
+                                <div class="col_1">
+
+                                    <ul class="greybox">
+                                        <li><a href="#">FreelanceSwitch</a></li>
+                                        <li><a href="#">Creattica</a></li>
+                                        <li><a href="#">WorkAwesome</a></li>
+                                        <li><a href="#">Mac Apps</a></li>
+                                        <li><a href="#">Web Apps</a></li>
+                                    </ul>   
+
+                                </div>
+
+                                <div class="col_1">
+
+                                    <ul class="greybox">
+                                        <li><a href="#">ThemeForest</a></li>
+                                        <li><a href="#">GraphicRiver</a></li>
+                                        <li><a href="#">ActiveDen</a></li>
+                                        <li><a href="#">VideoHive</a></li>
+                                        <li><a href="#">3DOcean</a></li>
+                                    </ul>   
+
+                                </div>
+
+                                <div class="col_1">
+
+                                    <ul class="greybox">
+                                        <li><a href="#">Design</a></li>
+                                        <li><a href="#">Logo</a></li>
+                                        <li><a href="#">Flash</a></li>
+                                        <li><a href="#">Illustration</a></li>
+                                        <li><a href="#">More...</a></li>
+                                    </ul>   
+
+                                </div>
+
+                                <div class="col_3">
+                                    <h2>Here are some image examples</h2>
+                                </div>
+
+                                <div class="col_3">
+                                    <img src="img/02.jpg" width="70" height="70" class="img_left imgshadow" alt="" />
+                                    <p>Maecenas eget eros lorem, nec pellentesque lacus. Aenean dui orci, rhoncus sit amet tristique eu, tristique sed odio. Praesent ut interdum elit. Maecenas imperdiet, nibh vitae rutrum vulputate, lorem sem condimentum.<a href="#">Read more...</a></p>
+
+                                    <img src="img/01.jpg" width="70" height="70" class="img_left imgshadow" alt="" />
+                                    <p>Aliquam elementum felis quis felis consequat scelerisque. Fusce sed lectus at arcu mollis accumsan at nec nisi. Aliquam pretium mollis fringilla. Vestibulum tempor facilisis malesuada. <a href="#">Read more...</a></p>
+                                </div>
+
+                            </div><!-- End 3 columns container -->
+
+                        </li><!-- End 3 columns Item -->
+
+
+                    </ul>
+
+                </div>
+            </nav>
+
+        </header>
+
+        <div class="content">
+            <!--
+                        <ul class="ca-menu">
+                            <li>
+                                <a href="#">
+                                    <span class="ca-icon">A</span>
+                                    <div class="ca-content">
+                                        <h2 class="ca-main">Exceptional Service</h2>
+                                        <h3 class="ca-sub">Personalized to your needs</h3>
+                                    </div>
+                                </a>                    </li>
+                            <li>
+                                <a href="#">
+                                    <span class="ca-icon">I</span>
+                                    <div class="ca-content">
+                                        <h2 class="ca-main">Creative Storytelling</h2>
+                                        <h3 class="ca-sub">Advanced use of technology</h3>
+                                    </div>
+                                </a>                    </li>
+                            <li>
+                                <a href="#">
+                                    <span class="ca-icon">C</span>
+                                    <div class="ca-content">
+                                        <h2 class="ca-main">Infographical Education</h2>
+                                        <h3 class="ca-sub">Understanding visually</h3>
+                                    </div>
+                                </a>                    </li>
+                            <li>
+                                <a href="#">
+                                    <span class="ca-icon">S</span>
+                                    <div class="ca-content">
+                                        <h2 class="ca-main">Sophisticated Team</h2>
+                                        <h3 class="ca-sub">Professionals in action</h3>
+                                    </div>
+                                </a>                    </li>
+                        </ul>
+            -->
+            <!--star main --> 
+
+            <main>    
+                <div class="abox">
+                    <figure>
+                        <fcapion>
+                            <h1></h1>
+
+                            </fcaption>
+                    </figure>
+                </div>
+            </main>
+            <!--end main -->
+            <!--start middle -->
+            <middle>    
+                <div class="enter">
+
+                    <div class="imgteaser">
+                        <?= $this->layout()->content; ?>    
+                    </div>
+
+                </div>
+
+                <br />
+                <div class="middle_box"><h1><img src="images/fav.png" width="16" height="16" /> <a href="#">Resources</a></h1>
+                    <ol>
+                        <img src="images/dialog-ok.png" width="16" height="16" /> Lorem Ipsum quntum</ol>
+                    <ol>
+                        <img src="images/dialog-ok.png" width="16" height="16" /> Lorem ipsum dolor sit amet</ol>
+                    <ol>
+                        <img src="images/dialog-ok.png" width="16" height="16" /> Integer vehicula laoreet purus ac tincidunt</ol>
+                    <ol> <img src="images/dialog-ok.png" width="16" height="16" /> distinctly portfolio suite grande architectural five-star.</ol>
+                </div>
+                <div class="middle_box"><h1><img src="images/fav.png" width="16" height="16" /> <a href="#">Blogs</a></h1>
+                    <p><img src="images/dialog-ok.png" width="16" height="16" /> Recent Post</p>
+                    <ol>
+                        <img src="images/dialog-ok.png" width="16" height="16" /> Lorem Ipsum quntum
+                    </ol>
+                    <ol>
+                        <img src="images/dialog-ok.png" width="16" height="16" /> Lorem ipsum dolor sit amet
+                    </ol>
+                    <ol> <img src="images/dialog-ok.png" width="16" height="16" /> distinctly portfolio suite grande architectural five-star.</ol>
+                </div>
+                <div class="middle_box">
+                    <h1><img src="images/fav.png" width="16" height="16" /> <a href="#">Design </a></h1>
+                    <img src="images/dialog-ok.png" width="16" height="16" /> Lorem Ipsum quntum</ol>
+                    <ol>
+                        <img src="images/dialog-ok.png" width="16" height="16" /> Lorem ipsum dolor sit amet</ol>
+                    <ol>
+                        <img src="images/dialog-ok.png" width="16" height="16" /> Integer vehicula laoreet purus ac tincidunt</ol>
+                    <ol> <img src="images/dialog-ok.png" width="16" height="16" /> distinctly portfolio suite grande architectural five-star.</ol>
+                </div>
+            </middle>
+        </div>
+        <!--end middle -->
+        <!--start footer -->
+        <footer>  
+            <div id="footer">
+                <div id="footerleft">
+                    <h2>Imediacreatives</h2>
+                    <ul>
+                        <li><a href="http://www.imediacreatives.it">Css3 Kitesurf</a></li>
+                        <li><a href="..."> Layout Design Gardenfolio</a></li>
+                        <li><a href="..."> BlueBand</a></li>
+                    </ul>
+                </div>
+                <div id="footermiddle">
+                    <h2>User Comments</h2>
+                    <ul>
+                        <li><a href="...">SWF XLM Sldeshow</a></li>
+                        <li><a href="http://www.imediacreatives.it">Michelangelo</a></li>
+                        <li><a href="...">Another Templates Principato</a></li>
+                    </ul>
+                </div>
+                <div id="footerright">
+                    <h2>Design & Project</h2>
+                    <ul>
+                        <li><a href="http://www.imediacreatives.it">CSS3 Design</a></li>
+                        <li><a href="http://www.imediacreatives.it">Psd to CSS </a></li>
+                        <li><a href="http://www.imediacreatives.it">Psd to Html5</a></li>
+                    </ul>
+                </div>
+                <details>
+                    <summary>
+                        <p><a href="http://www.imediacreatives.it" target="_blank">Imediacreatives.it</a>
+                            Copyright &copy; yoursite.com -2011.</p></summary><p></p>
+                </details>
+            </div>
+        </footer>
+        <!--end footer -->
+    </div>
+    <!--end container -->
+    <!-- Free template distributed by http://freehtml5templates.com -->
+</body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+</html>
+
+
+
+
+
+
+<script type="text/javascript">
+    //            $(document).ready(function(){
+    //                $('form').submit(function() {
+    //                   // event.preventDefault(); 
+    //                    strObj = $(this).serialize();
+    //
+    //                    $.post(
+    //                    "<?= $this->baseUrl(); ?>/index/process",
+    //                    strObj,
+    //                    function(result){
+    //                        $("#pro").html(result);
+    //                    });
+    //                    return false;
+    //                });
+    //                
+    //            }); 
+</script>
+
+

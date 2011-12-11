@@ -1,0 +1,9 @@
+<h2>Index/index</h2>
+<?php if ($this->userState !== null): ?>
+    <?= $this->userState['name']; ?>
+    <a href="<?= $this->baseUrl(); ?>/user/logout"><strong>+ Logout </strong></a>
+<?php else : ?>
+    <a href="<?= $this->baseUrl(); ?>/user/login"><strong>+ Login </strong></a>
+<?php endif; ?>
+
+
